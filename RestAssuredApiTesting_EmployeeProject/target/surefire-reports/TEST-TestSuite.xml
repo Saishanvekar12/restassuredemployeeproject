@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="3.722" tests="27" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Saish\eclipse-workspace\RestAssuredApiTesting_EmployeeProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Saish\eclipse-workspace\RestAssuredApiTesting_EmployeeProject"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Saish\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Saish\Downloads\Jars\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\Saish\Downloads\Jars\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\Users\Saish\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Users\Saish\Downloads\Jars\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Saish\Downloads\Jars\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Saish"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Saish"/>
+    <property name="java.class.path" value="C:\Users\Saish\Downloads\Jars\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Saish\Downloads\Jars\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.025"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="3.593"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.001">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime(TC001_Get_All_Employees.java:53)
+</failure>
+    <system-out><![CDATA[INFO  EmployeesRestAPI - *********Checking Response Time*******
+INFO  EmployeesRestAPI - Response Time ==>5797
+WARN  EmployeesRestAPI - Response time is greater than 3000
+]]></system-out>
+  </testcase>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0"/>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC002_Get_Single_Employees_Record" time="0.002"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC002_Get_Single_Employees_Record" time="0.009">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at org.testng.Assert.assertEquals(Assert.java:761)
+	at com.employeeapi.testCases.TC002_Get_Single_Employees_Record.checkResponseBody(TC002_Get_Single_Employees_Record.java:32)
+</failure>
+    <system-out><![CDATA[INFO  EmployeesRestAPI - *********Checking Response Body*******
+INFO  EmployeesRestAPI - Response Body ==>false<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=3&shcb=32', true, [], true, false, false, false);
+__ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=3&shcb=32', false, [], true, false, false, false);
+</script>
+
+<script>var _audins_dom="restapiexample_com",_audins_did=133674;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-3");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.restapiexample_com,DomainId.133674" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript>
+<script type='text/javascript'>(function(){function f(b,d){for(var c=0;c<d.length;c++){var e=d[c];if(0==e.complete||"undefined"!=typeof e.readyState&&4>e.readyState){var k=e.getAttribute("src")||e.currentSrc;"undefined"!=typeof e.readyState&&0==e.readyState?e.addEventListener("loadstart",function(g){var l=g.getAttribute("src")||g.currentSrc;h(g,l)}):(k=e.getAttribute("src")||e.currentSrc,h(e,k));e.addEventListener("load",function(g){var l=g.currentTarget.getAttribute("src")||g.srcElement.currentSrc;m(g,l)});e.addEventListener("loadeddata",
+	function(g){var l=g.currentTarget.getAttribute("src")||g.srcElement.currentSrc;m(g,l)});e.addEventListener("error",function(g){var l=g.currentTarget.getAttribute("src")||g.srcElement.currentSrc;m(g,l)})}}}function a(b){for(var d=0;d<document.styleSheets.length;d++)if(document.styleSheets[d].href==b)return!0;return!1}f("img",document.querySelectorAll("img"));f("video",document.querySelectorAll("video"));f("audio",document.querySelectorAll("audio"));(function(b){for(var d=0;d<b.length;d++){var c=b[d];
+	if("stylesheet"==c.getAttribute("rel")&&null!=c.getAttribute("href")&&a(c.getAttribute("href"))){h(c,c.getAttribute("href"));var e=document.createElement("img");e.onerror=function(k){m(c,k.path[0].currentSrc)};e.src=c.getAttribute("href")}}})(document.querySelectorAll("link"))})();</script>
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC002_Get_Single_Employees_Record" time="0.008"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC002_Get_Single_Employees_Record" time="0.009"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC002_Get_Single_Employees_Record" time="0.024"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC002_Get_Single_Employees_Record" time="0.008"/>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC003_POST_Employees_Record" time="0.004"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC003_POST_Employees_Record" time="0.004"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC003_POST_Employees_Record" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC003_POST_Employees_Record" time="0.004"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC003_POST_Employees_Record" time="0.005"/>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC004_PUT_Employees_Record" time="0.003"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC004_PUT_Employees_Record" time="0.003"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC004_PUT_Employees_Record" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC004_PUT_Employees_Record" time="0"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC004_PUT_Employees_Record" time="0.005"/>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC005_DELETE_Employee_Record" time="0.003"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC005_DELETE_Employee_Record" time="0.001"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC005_DELETE_Employee_Record" time="0.004"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC005_DELETE_Employee_Record" time="0.004"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC005_DELETE_Employee_Record" time="0.001"/>
+</testsuite>

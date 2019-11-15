@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 26.553 sec <<< FAILURE! - in TestSuite
+checkResponseTime(com.employeeapi.testCases.TC001_Get_All_Employees)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime(TC001_Get_All_Employees.java:53)
+
+checkResponseBody(com.employeeapi.testCases.TC002_Get_Single_Employees_Record)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at org.testng.Assert.assertEquals(Assert.java:761)
+	at com.employeeapi.testCases.TC002_Get_Single_Employees_Record.checkResponseBody(TC002_Get_Single_Employees_Record.java:32)
+
